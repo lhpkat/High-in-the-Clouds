@@ -1,7 +1,8 @@
 import { _RouteRecordBase } from 'vue-router';
-
+import { Component } from 'vue'
 declare module 'vue-router'{
     interface _RouteRecordBase{
-        icon?: () => { template: string; };
+        icon?: Component;
+        title?: string;
     }
 }

@@ -1,6 +1,6 @@
 <template>
-  <p class="title">云端</p>
-  <router-view></router-view>
+    <p class="title">踩坑日志</p>
+    <router-view></router-view>
 </template>
 
 <style lang="scss" scoped>
