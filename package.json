@@ -7,14 +7,21 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "element-plus": "^1.2.0-beta.6",
     "element-ui": "^2.15.6",
+    "sass": "^1.45.1",
     "three": "^0.135.0",
     "vue": "^3.2.16",
+    "vue-router": "^4.0.12",
     "web3": "^1.6.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.9.3",
+    "sass-loader": "^12.4.0",
     "typescript": "^4.4.3",
+    "unplugin-auto-import": "^0.5.3",
+    "unplugin-vue-components": "^0.17.8",
     "vite": "^2.6.4",
     "vue-tsc": "^0.3.0"
   }
