@@ -14,8 +14,8 @@ const routesPage: RouteRecordRaw[] = [
         name: Symbol('云端'),
         title: '云端',
         icon: () => ({ template: '<el-icon><cloudy /></el-icon>' }),
-        // component: () => import('@/pages/HighInTheClouds/index.vue'),
-        component: { template: `<div>123</div>` },
+        component: () => import('@/pages/HighInTheClouds/index.vue'),
+        // component: { template: `<div>123</div>` },
         children: [
             {
                 path: 'principle',

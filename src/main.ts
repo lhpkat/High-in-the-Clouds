@@ -8,6 +8,7 @@ import {
     Cloudy,
     Setting,
     Watermelon,
+    HomeFilled
 } from '@element-plus/icons-vue'
 import router from './router'
 import 'element-plus/dist/index.css'
@@ -23,5 +24,6 @@ app.use(ElementPlus)
     .component('Header', component.Header)
     .component('Aside', component.Aside)
     .component('watermelon', Watermelon)
-    .component('cloudy', Cloudy)
+    .component('Cloudy', Cloudy)
+    .component('HomeFilled', HomeFilled)
     .mount('#app')
